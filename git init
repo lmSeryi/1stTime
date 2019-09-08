@@ -1,0 +1,20 @@
+git init 
+git add (archivo)
+git commit -m (mensaje)
+
+git add . (Todos)
+git commit -m "Cambios"
+git status
+git show
+
+Enviar archivo a git ajeno
+git log (archivo) Ver los cambios 
+git push (repositorio remoto)
+checkout (traer cambios)
+
+git rm --cached (archivo) eliminar de status
+git show (archivo) Ver los cambios 
+git diff (vieja) (nueva)
+
+git clone (url) 
+git fetch 
