@@ -10,7 +10,7 @@ git show
 Enviar archivo a git ajeno
 git log (archivo) Ver los cambios 
 git push (repositorio remoto)
-checkout (traer cambios)
+checkout  (traer cambios)
 
 git rm --cached (archivo) eliminar de status
 git show (archivo) Ver los cambios 
@@ -18,3 +18,9 @@ git diff (vieja) (nueva)
 
 git clone (url) 
 git fetch 
+
+git commi -am (mensaje) añade actualizaciones a archivos subidos previamente
+
+git branch (rama) crear rama
+git checkout (rama) ir a la rama 
+git merge 	unir ramas 
