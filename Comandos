@@ -8,7 +8,8 @@ git status
 git show
 
 Enviar archivo a git ajeno
-git log (archivo) Ver los cambios 
+git log (archivo) Ver los cambios
+git log stat 
 git push (repositorio remoto)
 checkout  (traer cambios)
 
@@ -23,23 +24,16 @@ git commi -am (mensaje) añade actualizaciones a archivos subidos previamente
 
 git branch (rama) crear rama
 git checkout (rama) ir a la rama 
-git merge 	unir ramas 
+git merge (rama): se debe estar en el master 	
 
 Generación de llaves. 
 ssh-keygen -t rsa -b 4096 -C "@correo" 
-
 eval $(ssh-agent -s)
-
 ssh-add ruta
-
-git remote set-url origin  SSH
+git remote set-url origin SSH
 
 git pull origin master 
-
-
 git log --all --graph --decorate --oneline
-
-
 alias arbolito="git log --all --graph --decorate --oneline"
 
 
@@ -63,3 +57,43 @@ vi (archivo) modificar desde consola.
 pull request (github)
 merge request (gitlab)
 
+git rebase master (rama)
+
+git reset (primero a la rama secundaria y luego a la principal)
+
+
+git stash
+git stash pop
+git stash branch (rama nueva)
+git stash drop
+
+git clean
+git clean --dry--run (muestra lo que se va a borrar)
+git clean -f
+
+git cherry-pick (ID commit): traer commits viejos al head de un branch
+
+git log --oneline
+
+git commit --amend
+
+git grep (palabra)
+git grep -n (palabra)
+git grep -c (palabra)
+git grep -c "(etiqueta)"
+git log -S "(palabra)"
+
+git shortlog 
+git shorlog -sn 
+git shorlog -sn --all
+git shorlog -sn --all --no-merges
+git config --global alias.stats "(comando)"
+git blame (archivo)
+git blame -c (archivo)
+git blame --help 
+
+git blame (ruta y archivo) L(linea),(linea)
+git blame (ruta y archivo) L(linea),(linea) -c
+
+git branch -r (ramas remotas)
+git branch -a 
