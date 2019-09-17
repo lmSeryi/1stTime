@@ -1,0 +1,83 @@
+
+*Un pull request: 
+	Cambio Sugerido a un repositorio que el dueño puede autorizar
+
+*Commit los mensajes son: 
+	Importantes y obligatorios
+
+*Branch o rama:
+	Donde se trabaja en paralelo
+
+Github pages:
+	Servicio de github para publicar nuestros repositorios 
+
+Freddy despide a Anita:
+	Crear fork y enviar pull request al proyecto original
+
+*Git stash se guarda:
+	Memoria temporal
+
+*cambiar la rama principal: Verdadero
+
+
+*El dueño al ver un pull puede: 
+	editarlo, aceptarlo, darle merge, comentarlo para pedir cambios
+
+*con checkout puedo: 
+	ver los archivos de mi proyecto como los dejé en otras ramas 
+
+*github es:
+ 	Sistema de manejo de repositorios 
+
+ *Los tags de git crean:
+ 	versiones descarbales y puntos unicos 
+
+*como instalas gitk:
+ 	Se instala automaticamente 
+
+ *puedo crear ramas en git?
+ 	Si tu decides si traerlas
+
+ *gitignore
+
+ *cuando hay conflicto entre archivos lo mejor es: 
+ 	analizarlos y elegir los cambios finales 
+
+ *qué guarda git? 
+ 	los cambios de los archivos
+
+*La terminal idela para usar git es: 
+ 	GitBash
+
+*los cambios a un archivo que están en stagin están en: 
+ 	Almacenamiento temporal
+
+*Trabajen paralelo: 
+	Crear dos diferentes ramas.
+
+*reto:
+	Post
+
+Repositorio remoto y personal:
+
+
+Los colaboradores pueden: 
+
+extensión de la llave privaba 
+ 	.rsa
+
+Las llaves publicas son: 
+	Sistemas de cifrado
+
+En un repositorio publico, los colaboradores pueden:
+
+Deberias usar cherry cuando:
+
+GITK porque
+	Gustos. 
+
+git stash branch rama
+
+Diferencia entre git rm y git reset HEAD
+
+uso de git grep
